@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- assets/app_icon/ic_launcher_background.svg -->
+    <color name="ic_launcher_background">#F27210</color>
+</resources>

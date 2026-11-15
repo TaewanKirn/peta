@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 시연용: 에뮬레이터에서 PC의 모바일 앱 서버(10.0.2.2)로만 HTTP를 허용한다. 실제 서버는 HTTPS를 쓴다. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,42 @@
+{
+  "source": {
+    "figmaFileKey": "0GZeF5eDnZTc4TkWXA23XT",
+    "pageNodeId": "115:1583",
+    "viewport": { "width": 402, "height": 886 }
+  },
+  "colors": {
+    "brandOrange": "#F2711C",
+    "onboardingPoint": "#FB7913",
+    "brandOrangeSoft": "#FFF1E6",
+    "brandOrangePale": "#FFE0C7",
+    "textPrimary": "#2A211B",
+    "textLegacy": "#322D27",
+    "textSecondary": "#7A6F68",
+    "textMuted": "#B3A9A2",
+    "textDim": "#AFAFAF",
+    "disabled": "#B4B4B4",
+    "surface": "#FFFFFF",
+    "surfaceSubtle": "#F0F0F0",
+    "black": "#000000"
+  },
+  "typography": {
+    "primaryFamily": "Noto Sans KR",
+    "fallback": "Pretendard, Apple SD Gothic Neo, sans-serif",
+    "logoFamily": "Hyundai Sans Head Office",
+    "weights": { "regular": 400, "medium": 500, "bold": 700, "black": 900 },
+    "sizes": [12, 13, 14, 15, 16, 17, 18, 22, 26, 28, 30, 40, 49],
+    "bodyLineHeight": 1.4,
+    "buttonLineHeight": 1.5
+  },
+  "layout": {
+    "contentMargins": [24, 28, 31, 32],
+    "bottomButton": { "x": 50, "y": 796, "width": 303, "height": 54, "radius": 27 },
+    "topNavigation": { "y": 76, "height": 40 },
+    "placeHero": { "width": 402, "height": 310 },
+    "placeSheetTop": 274,
+    "placeSheetRadius": 28
+  },
+  "radii": { "small": 8, "chip": 20, "card": 20, "sheet": 28, "pill": 999 },
+  "touch": { "minimumTarget": 44 }
+}
+

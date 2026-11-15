@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">페타</string>
+
+    <string name="status_line">기어 %1$s · 내비 %2$s</string>
+    <string name="connected">연결됨</string>
+    <string name="disconnected">미연결</string>
+
+    <string name="restricted">주행 중에는 화면을 사용할 수 없어요.\n정차 후 확인해 주세요 🐾</string>
+    <string name="driving_info">연속 운전 %1$d분</string>
+    <string name="driving_info_remain">연속 운전 %1$d분 · 목적지까지 %2$d분</string>
+
+    <!-- 4. 브리핑 -->
+    <string name="briefing_title">여행 브리핑</string>
+    <string name="briefing_companions">%1$s와 함께 %2$s에 가는 거 맞나요?</string>
+    <string name="briefing_checklist">준비물 다 챙겼나요? %1$s</string>
+    <string name="briefing_eta">가는 데 약 %1$d분 걸릴 것 같아요</string>
+    <string name="briefing_eta_waypoint">(%1$s 경유)</string>
+    <string name="skip">건너뛰기</string>
+    <string name="start_trip">출발하기</string>
+
+    <!-- 5·6. 휴식 / 경유지 추천 -->
+    <string name="rest_due_title">쉬어갈 시간이에요 · %1$d분째 운전 중</string>
+    <string name="rest_nearby_title">주변 반려견 쉼터</string>
+    <string name="rest_nearby">댕댕이와 쉴 수 있는 가까운 곳이에요</string>
+    <string name="place_row">%1$s · %2$.1fkm\n페타 사용자 %3$d명 방문 · \"%4$s\"</string>
+    <string name="add_waypoint">경유지 추가</string>
+
+    <!-- 7. 위급상황 -->
+    <string name="emergency">위급상황</string>
+    <string name="emergency_title">가까운 동물병원</string>
+    <string name="hospital_row">%1$s · %2$.1fkm</string>
+    <string name="hospital_regular">⭐ 단골 · </string>
+    <string name="route_go">경로 안내</string>
+
+    <!-- 8·9. 경유지 도착 / 머문 시간 -->
+    <string name="stop_title">%1$s에 도착했어요</string>
+    <string name="stop_info">%1$s\n여기서 %2$s 하기로 했어요 (계획 %3$d분)</string>
+    <string name="stay_minutes">%1$d분째 머물고 있어요</string>
+    <string name="left_vehicle">🚪 차에서 내리셨네요. 오래 머물면 보호자 폰으로 알려드릴게요</string>
+    <string name="delay_minutes">계획보다 %1$d분 늦어지고 있어요</string>
+    <string name="delay_minutes_eta">계획보다 %1$d분 늦어지고 있어요 · 목적지까지 약 %2$d분</string>
+
+    <!-- 10. 목적지 -->
+    <string name="dest_title">%1$s 도착! 🐶</string>
+    <string name="dest_body">여기서 %1$s 하기로 했어요.\n%2$s\n재밌는 시간 보내세요!</string>
+
+    <!-- 11. 후기 -->
+    <string name="review_title">%1$s, 댕댕이와 어땠어요?</string>
+    <string name="later">나중에</string>
+    <string name="review_thanks">고마워요! 다른 보호자들에게 큰 도움이 돼요</string>
+
+    <!-- 데모 -->
+    <string name="demo_waypoint">[데모] 경유지 도착</string>
+    <string name="demo_destination">[데모] 목적지 도착</string>
+    <string name="demo_long_drive">[데모] 장시간 운전</string>
+
+    <!-- 알림 -->
+    <string name="channel_monitor">여행 상태 추적</string>
+    <string name="channel_alert">여행 알림</string>
+    <string name="monitor_running">여행 상태를 확인하고 있어요</string>
+    <string name="stay_title">%1$d분째 머물고 있어요</string>
+    <string name="stay_body">댕댕이와 충분히 쉬었나요? 출발 준비를 해볼까요?</string>
+    <string name="rest_title">쉬어갈 시간이에요</string>
+    <string name="rest_body">%1$d분째 운전 중이에요. 다음 정차 때 주변 쉼터를 보여드릴게요.</string>
+</resources>

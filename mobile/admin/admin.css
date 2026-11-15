@@ -1,0 +1,354 @@
+:root {
+  --line: #e7e0da;
+  --ok: #2f9e5b;
+  --sub: var(--text-secondary);
+  --teal-soft: var(--orange-soft);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-warm);
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-size: 14px;
+}
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--brand-orange);
+  white-space: nowrap;
+}
+
+.brand span {
+  color: var(--text-primary);
+}
+
+.status {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+#car-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--disabled);
+}
+
+.dot.on {
+  background: var(--ok);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 392px;
+  gap: 16px;
+  align-items: start;
+  padding: 16px 20px 40px;
+}
+
+@media (max-width: 1100px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pane {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bar h1 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.hint {
+  margin: 4px 0 0;
+  color: var(--text-secondary);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+#flow {
+  max-height: calc(100vh - 160px);
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.card h2 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.card h3 {
+  margin: 12px 0 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.btn {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-primary);
+  font: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn:hover {
+  border-color: var(--brand-orange);
+}
+
+.btn.on {
+  background: var(--text-primary);
+  border-color: var(--text-primary);
+  color: #fff;
+}
+
+.btn.sent {
+  background: var(--orange-pale);
+}
+
+.btn.failed {
+  background: #f6d5d5;
+  border-color: var(--danger);
+}
+
+.btn.warn {
+  color: var(--danger);
+}
+
+.detail {
+  margin-top: 12px;
+}
+
+.detail summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.detail pre {
+  overflow: auto;
+  max-height: 260px;
+  font-size: 12px;
+}
+
+.phone {
+  position: sticky;
+  top: 72px;
+  overflow: hidden;
+  width: 392px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface);
+}
+
+.phone-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.phone-bar a {
+  color: var(--brand-orange);
+}
+
+.phone iframe {
+  display: block;
+  width: 390px;
+  height: min(844px, calc(100vh - 120px));
+  border: 0;
+}
+
+#toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  z-index: 20;
+  max-width: 90vw;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--text-primary);
+  color: #fff;
+  font-size: 13px;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+#toast.show {
+  opacity: 1;
+}
+
+/* ---------------- 플로우차트 (flow-view.ts) ---------------- */
+
+.flow-wrap {
+  position: relative;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.flow-stage {
+  position: relative;
+  transform-origin: 0 0;
+}
+
+.flow-stage > div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.flow-lines {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.flow-text {
+  font-family: Pretendard, 'Apple SD Gothic Neo', var(--font);
+  line-height: 1.2;
+  white-space: pre-wrap;
+  pointer-events: none;
+}
+
+.flow-hot {
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.flow-hot:hover {
+  box-shadow: 0 0 0 6px rgba(242, 113, 28, 0.25);
+}
+
+.flow-hot[data-count]::after {
+  content: attr(data-count);
+  position: absolute;
+  right: -14px;
+  bottom: -14px;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 8px;
+  border-radius: 17px;
+  background: #1d2327;
+  color: #fff;
+  font: 700 20px/34px Pretendard, sans-serif;
+  text-align: center;
+}
+
+.flow-hint {
+  opacity: 0.75;
+}
+
+.flow-current {
+  box-shadow: 0 0 0 10px rgba(242, 113, 28, 0.95), 0 0 0 22px rgba(242, 113, 28, 0.2) !important;
+}
+
+.flow-menu {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 220px;
+  max-width: 340px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* display: flex가 [hidden]을 덮으므로 따로 숨긴다 */
+.flow-menu[hidden] {
+  display: none;
+}
+
+.flow-menu p {
+  margin: 2px 4px 6px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.flow-menu button {
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.flow-menu button:hover {
+  background: var(--orange-soft);
+}

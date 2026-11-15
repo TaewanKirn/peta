@@ -1,0 +1,24 @@
+/* design-tokens.json과 같은 값을 유지한다. */
+:root {
+  --brand-orange: #f2711c;
+  --point-orange: #fb7913;
+  --orange-soft: #fff1e6;
+  --orange-pale: #ffe0c7;
+  --text-primary: #2a211b;
+  --text-legacy: #322d27;
+  --text-secondary: #7a6f68;
+  --text-muted: #b3a9a2;
+  --text-dim: #afafaf;
+  --disabled: #b4b4b4;
+  --surface: #ffffff;
+  --surface-subtle: #f0f0f0;
+  --surface-warm: #f9f5f1;
+  --danger: #c93a3a;
+
+  --radius-small: 8px;
+  --radius-chip: 20px;
+  --radius-card: 20px;
+  --radius-sheet: 28px;
+
+  --font: 'Noto Sans KR', Pretendard, 'Apple SD Gothic Neo', sans-serif;
+}

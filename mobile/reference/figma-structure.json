@@ -1,0 +1,4828 @@
+{
+  "source": {
+    "fileKey": "0GZeF5eDnZTc4TkWXA23XT",
+    "pageNodeId": "464:30578"
+  },
+  "screens": [
+    {
+      "kind": "mobile",
+      "key": "01_m01_account",
+      "id": "483:37594",
+      "name": "M01 보호자 프로필_계정 연동",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "Pet Trip Service",
+          "x": 147,
+          "y": 195,
+          "w": 108,
+          "h": 19,
+          "font": {
+            "family": "Hyundai Sans Head Office",
+            "style": "Medium"
+          },
+          "size": 15,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "PET:A",
+          "x": 119,
+          "y": 218,
+          "w": 163,
+          "h": 55,
+          "font": "mixed",
+          "size": 49,
+          "color": "#fb7913",
+          "align": "LEFT"
+        },
+        {
+          "text": "카카오로 로그인",
+          "x": 146,
+          "y": 552,
+          "w": 111,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 17,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "네이버로 로그인",
+          "x": 146,
+          "y": 612,
+          "w": 111,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 17,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "Pleos로 로그인",
+          "x": 147,
+          "y": 672,
+          "w": 108,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 17,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "페타가 처음이신가요?",
+          "x": 131,
+          "y": 761,
+          "w": 141,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 16,
+          "color": "#999999",
+          "align": "CENTER"
+        },
+        {
+          "text": "이메일로 회원가입",
+          "x": 131,
+          "y": 791,
+          "w": 141,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "02_m01_style_01",
+      "id": "483:37115",
+      "name": "M01 보호자 프로필_여행 스타일",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "건너뛰기",
+          "x": 327,
+          "y": 88,
+          "w": 51,
+          "h": 15,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "RIGHT"
+        },
+        {
+          "text": "태완님의 \n여행 취향을 골라주세요",
+          "x": 24,
+          "y": 151,
+          "w": 227,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 74,
+          "y": 276,
+          "w": 254,
+          "h": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 20,
+          "color": "#2a211b",
+          "align": "CENTER"
+        },
+        {
+          "text": "거의 매일 함께 산책 나가기",
+          "x": 125.5,
+          "y": 312,
+          "w": 151,
+          "h": 15,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 71,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "인생샷 발굴",
+          "x": 170,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1박 여행러",
+          "x": 269,
+          "y": 639,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "사계절 투어러",
+          "x": 57,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 168,
+          "y": 683,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "바캉스 매니아",
+          "x": 267,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "선택",
+          "x": 240,
+          "y": 803.9,
+          "w": 30,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "건너뛰기",
+          "x": 45,
+          "y": 804,
+          "w": 58,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#fb7913",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "03_m01_style_02",
+      "id": "483:37211",
+      "name": "M01 보호자 프로필_여행 스타일",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "태완님의 \n여행 취향을 골라주세요",
+          "x": 24,
+          "y": 151,
+          "w": 227,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 79,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "인생샷 발굴",
+          "x": 179,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1박 여행러",
+          "x": 278,
+          "y": 639,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "사계절 투어러",
+          "x": 57,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 168,
+          "y": 683,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "바캉스 매니아",
+          "x": 267,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1개 선택",
+          "x": 227,
+          "y": 803.9,
+          "w": 56,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "건너뛰기",
+          "x": 45,
+          "y": 804,
+          "w": 58,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 74,
+          "y": 276,
+          "w": 254,
+          "h": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 20,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "거의 매일 함께 산책 나가기",
+          "x": 125.5,
+          "y": 312,
+          "w": 151,
+          "h": 15,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "04_m01_style_03",
+      "id": "483:37309",
+      "name": "M01 보호자 프로필_여행 스타일",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "태완님의 \n여행 취향을 골라주세요",
+          "x": 24,
+          "y": 151,
+          "w": 227,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "바캉스 매니아",
+          "x": 74,
+          "y": 276,
+          "w": 254,
+          "h": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 20,
+          "color": "#2a211b",
+          "align": "CENTER"
+        },
+        {
+          "text": "여행갈 때 바다는 꼭 가기",
+          "x": 132,
+          "y": 312,
+          "w": 138,
+          "h": 15,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "사계절 투어러",
+          "x": 57,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 168,
+          "y": 683,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "바캉스 매니아",
+          "x": 267,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1개 선택",
+          "x": 227,
+          "y": 803.9,
+          "w": 56,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "건너뛰기",
+          "x": 45,
+          "y": 804,
+          "w": 58,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 79,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "인생샷 발굴",
+          "x": 179,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1박 여행러",
+          "x": 278,
+          "y": 639,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "05_m01_style_04",
+      "id": "483:37407",
+      "name": "M01 보호자 프로필_여행 스타일",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "태완님의 \n여행 취향을 골라주세요",
+          "x": 24,
+          "y": 151,
+          "w": 227,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 74,
+          "y": 276,
+          "w": 254,
+          "h": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 20,
+          "color": "#2a211b",
+          "align": "CENTER"
+        },
+        {
+          "text": "불멍 때리면서 차박 낭만 즐기기",
+          "x": 113,
+          "y": 312,
+          "w": 176,
+          "h": 15,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "사계절 투어러",
+          "x": 57,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 168,
+          "y": 683,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "바캉스 매니아",
+          "x": 267,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1개 선택",
+          "x": 227,
+          "y": 803.9,
+          "w": 56,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "건너뛰기",
+          "x": 45,
+          "y": 804,
+          "w": 58,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 79,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "인생샷 발굴",
+          "x": 179,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1박 여행러",
+          "x": 278,
+          "y": 639,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "06_m01_style_05",
+      "id": "483:37499",
+      "name": "M01 보호자 프로필_여행 스타일",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "태완님의 \n여행 취향을 골라주세요",
+          "x": 24,
+          "y": 151,
+          "w": 227,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 74,
+          "y": 276,
+          "w": 254,
+          "h": 30,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 20,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "불멍 때리면서 차박 낭만 즐기기",
+          "x": 113,
+          "y": 312,
+          "w": 176,
+          "h": 15,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "사계절 투어러",
+          "x": 48,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "차박 마스터",
+          "x": 176,
+          "y": 683,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "바캉스 매니아",
+          "x": 276,
+          "y": 683,
+          "w": 79,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "2개 선택",
+          "x": 227,
+          "y": 803.9,
+          "w": 56,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "건너뛰기",
+          "x": 45,
+          "y": 804,
+          "w": 58,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "산책 마스터",
+          "x": 79,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "인생샷 발굴",
+          "x": 179,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        },
+        {
+          "text": "1박 여행러",
+          "x": 278,
+          "y": 639,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#838383",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "07_m02_profile_01",
+      "id": "483:36907",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 1115,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "여행 습관 작성하기",
+          "x": 139.5,
+          "y": 776,
+          "w": 123,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "반려동물의\n프로필을 적어주세요",
+          "x": 24,
+          "y": 151,
+          "w": 200,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "Go",
+          "x": 304.4,
+          "y": 1005,
+          "w": 94,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "space",
+          "x": 102.9,
+          "y": 1005,
+          "w": 195,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "123",
+          "x": 3.2,
+          "y": 1005,
+          "w": 93,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": " ",
+          "x": 353.8,
+          "y": 951,
+          "w": 45,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": " ",
+          "x": 24.9,
+          "y": 948,
+          "w": 0,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "M",
+          "x": 312,
+          "y": 948,
+          "w": 20,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "N",
+          "x": 274.4,
+          "y": 948,
+          "w": 17,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "B",
+          "x": 234.7,
+          "y": 948,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "V",
+          "x": 193,
+          "y": 948,
+          "w": 16,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "C",
+          "x": 153.2,
+          "y": 948,
+          "w": 17,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "X",
+          "x": 112.6,
+          "y": 948,
+          "w": 16,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "Z",
+          "x": 73.9,
+          "y": 948,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "L",
+          "x": 355.9,
+          "y": 894,
+          "w": 13,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "K",
+          "x": 315.1,
+          "y": 894,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "J",
+          "x": 275.5,
+          "y": 894,
+          "w": 13,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "H",
+          "x": 233.6,
+          "y": 894,
+          "w": 17,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "G",
+          "x": 194,
+          "y": 894,
+          "w": 17,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "F",
+          "x": 154.4,
+          "y": 894,
+          "w": 13,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "D",
+          "x": 113.6,
+          "y": 894,
+          "w": 17,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "S",
+          "x": 73.9,
+          "y": 894,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "A",
+          "x": 32.2,
+          "y": 894,
+          "w": 16,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "P",
+          "x": 375.1,
+          "y": 840,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "O",
+          "x": 332.3,
+          "y": 840,
+          "w": 18,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "I",
+          "x": 298,
+          "y": 840,
+          "w": 7,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "U",
+          "x": 254,
+          "y": 840,
+          "w": 17,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "Y",
+          "x": 214.3,
+          "y": 840,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "T",
+          "x": 174.7,
+          "y": 840,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "R",
+          "x": 133.9,
+          "y": 840,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "E",
+          "x": 93.3,
+          "y": 840,
+          "w": 14,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "W",
+          "x": 48.2,
+          "y": 840,
+          "w": 22,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "Q",
+          "x": 10.7,
+          "y": 840,
+          "w": 18,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "종류",
+          "x": 24,
+          "y": 648,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "추가",
+          "x": 24,
+          "y": 335,
+          "w": 81,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리",
+          "x": 137,
+          "y": 335,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "루비",
+          "x": 240,
+          "y": 335,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "이름",
+          "x": 24,
+          "y": 385,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리",
+          "x": 24,
+          "y": 413,
+          "w": 37,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "생년월일",
+          "x": 24,
+          "y": 471,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "2020.01.15",
+          "x": 24,
+          "y": 499,
+          "w": 100,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "반려동물",
+          "x": 24,
+          "y": 557,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "강아지",
+          "x": 63,
+          "y": 596,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#fb7913",
+          "align": "LEFT"
+        },
+        {
+          "text": "고양이",
+          "x": 246,
+          "y": 596,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#b4b4b4",
+          "align": "LEFT"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "08_m02_profile_02",
+      "id": "483:37007",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 1283,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "반려동물의\n프로필을 적어주세요",
+          "x": 24,
+          "y": 151,
+          "w": 200,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "이름",
+          "x": 24,
+          "y": 385,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리",
+          "x": 24,
+          "y": 413,
+          "w": 37,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "생년월일",
+          "x": 24,
+          "y": 471,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "2020.01.15",
+          "x": 24,
+          "y": 499,
+          "w": 100,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "반려동물",
+          "x": 24,
+          "y": 557,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "강아지",
+          "x": 63,
+          "y": 596,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#fb7913",
+          "align": "LEFT"
+        },
+        {
+          "text": "고양이",
+          "x": 246,
+          "y": 596,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#b4b4b4",
+          "align": "LEFT"
+        },
+        {
+          "text": "Go",
+          "x": 304.4,
+          "y": 1173,
+          "w": 94,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "space",
+          "x": 102.9,
+          "y": 1173,
+          "w": 195,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "123",
+          "x": 3.2,
+          "y": 1173,
+          "w": 93,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": " ",
+          "x": 353.8,
+          "y": 1119,
+          "w": 45,
+          "h": 21,
+          "font": "mixed",
+          "size": 16,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": " ",
+          "x": 24.9,
+          "y": 1116,
+          "w": 0,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "M",
+          "x": 312,
+          "y": 1116,
+          "w": 21.4,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "N",
+          "x": 274.4,
+          "y": 1116,
+          "w": 18.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "B",
+          "x": 234.7,
+          "y": 1116,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "V",
+          "x": 193,
+          "y": 1116,
+          "w": 17.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "C",
+          "x": 153.2,
+          "y": 1116,
+          "w": 18.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "X",
+          "x": 112.6,
+          "y": 1116,
+          "w": 17.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "Z",
+          "x": 73.9,
+          "y": 1116,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "L",
+          "x": 355.9,
+          "y": 1062,
+          "w": 13.9,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "K",
+          "x": 315.1,
+          "y": 1062,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "J",
+          "x": 275.5,
+          "y": 1062,
+          "w": 13.9,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "H",
+          "x": 233.6,
+          "y": 1062,
+          "w": 18.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "G",
+          "x": 194,
+          "y": 1062,
+          "w": 18.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "F",
+          "x": 154.4,
+          "y": 1062,
+          "w": 13.9,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "D",
+          "x": 113.6,
+          "y": 1062,
+          "w": 18.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "S",
+          "x": 73.9,
+          "y": 1062,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "A",
+          "x": 32.2,
+          "y": 1062,
+          "w": 17.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "P",
+          "x": 375.1,
+          "y": 1008,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "O",
+          "x": 332.3,
+          "y": 1008,
+          "w": 19.3,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "I",
+          "x": 298,
+          "y": 1008,
+          "w": 7.5,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "U",
+          "x": 254,
+          "y": 1008,
+          "w": 18.2,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "Y",
+          "x": 214.3,
+          "y": 1008,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "T",
+          "x": 174.7,
+          "y": 1008,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "R",
+          "x": 133.9,
+          "y": 1008,
+          "w": 16.1,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "E",
+          "x": 93.3,
+          "y": 1008,
+          "w": 15,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "W",
+          "x": 48.2,
+          "y": 1008,
+          "w": 23.6,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "Q",
+          "x": 10.7,
+          "y": 1008,
+          "w": 19.3,
+          "h": 27,
+          "font": "mixed",
+          "size": 22.5,
+          "color": "#000000",
+          "align": "CENTER"
+        },
+        {
+          "text": "골든",
+          "x": 24,
+          "y": 676,
+          "w": 37,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "종류",
+          "x": 24,
+          "y": 648,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "골든 리트리버",
+          "x": 47,
+          "y": 743,
+          "w": 79,
+          "h": 20,
+          "font": "mixed",
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "골든 두들",
+          "x": 47,
+          "y": 786,
+          "w": 54,
+          "h": 20,
+          "font": "mixed",
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "화이트 골든 리트리버",
+          "x": 47,
+          "y": 829,
+          "w": 120,
+          "h": 20,
+          "font": "mixed",
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "여행 습관 작성하기",
+          "x": 139.5,
+          "y": 944,
+          "w": 123,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "추가",
+          "x": 24,
+          "y": 335,
+          "w": 81,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리",
+          "x": 137,
+          "y": 335,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "루비",
+          "x": 240,
+          "y": 335,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "09_m02_profile_03",
+      "id": "483:36448",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "여행 정보 작성하기",
+          "x": 139.5,
+          "y": 804,
+          "w": 123,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "반려동물의\n프로필을 적어주세요",
+          "x": 24,
+          "y": 151,
+          "w": 200,
+          "h": 68,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "이름",
+          "x": 24,
+          "y": 385,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리",
+          "x": 24,
+          "y": 413,
+          "w": 37,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "생년월일",
+          "x": 24,
+          "y": 471,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "2020.01.15",
+          "x": 24,
+          "y": 499,
+          "w": 100,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "반려동물",
+          "x": 24,
+          "y": 557,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "강아지",
+          "x": 63,
+          "y": 596,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#fb7913",
+          "align": "LEFT"
+        },
+        {
+          "text": "고양이",
+          "x": 246,
+          "y": 596,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#b4b4b4",
+          "align": "LEFT"
+        },
+        {
+          "text": "종류",
+          "x": 24,
+          "y": 648,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "골든 리트리버",
+          "x": 24,
+          "y": 676,
+          "w": 113,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "추가",
+          "x": 24,
+          "y": 335,
+          "w": 81,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리",
+          "x": 137,
+          "y": 335,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#fb7913",
+          "align": "CENTER"
+        },
+        {
+          "text": "루비",
+          "x": 240,
+          "y": 335,
+          "w": 62,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "10_m02_profile_04",
+      "id": "483:36549",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 여행할 때\n참고할 정보들을\n알려주세요",
+          "x": 24,
+          "y": 151,
+          "w": 162,
+          "h": 102,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "1",
+          "x": 56,
+          "y": 569,
+          "w": 17,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#fb7913",
+          "align": "LEFT"
+        },
+        {
+          "text": "0",
+          "x": 56,
+          "y": 518,
+          "w": 17,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "LEFT"
+        },
+        {
+          "text": "2",
+          "x": 55,
+          "y": 620,
+          "w": 17,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "LEFT"
+        },
+        {
+          "text": "13",
+          "x": 223,
+          "y": 467,
+          "w": 33,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "RIGHT"
+        },
+        {
+          "text": "10",
+          "x": 223,
+          "y": 518,
+          "w": 33,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "RIGHT"
+        },
+        {
+          "text": "15",
+          "x": 223,
+          "y": 569,
+          "w": 33,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#fb7913",
+          "align": "RIGHT"
+        },
+        {
+          "text": "20",
+          "x": 223,
+          "y": 620,
+          "w": 33,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "RIGHT"
+        },
+        {
+          "text": "25",
+          "x": 223,
+          "y": 671,
+          "w": 33,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "RIGHT"
+        },
+        {
+          "text": "18",
+          "x": 223,
+          "y": 722,
+          "w": 33,
+          "h": 39,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#515151",
+          "align": "RIGHT"
+        },
+        {
+          "text": "시간",
+          "x": 85,
+          "y": 579,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "분마다",
+          "x": 268,
+          "y": 579,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "Q1. \n보리와 차로 이동할 때 \n얼마나 자주 쉬나요?",
+          "x": 24,
+          "y": 396,
+          "w": 161,
+          "h": 75,
+          "font": "mixed",
+          "size": 18,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "다음",
+          "x": 186,
+          "y": 804,
+          "w": 30,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "11_m02_profile_05",
+      "id": "483:36642",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 여행할 때\n참고할 정보들을\n알려주세요",
+          "x": 24,
+          "y": 151,
+          "w": 162,
+          "h": 102,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "Q2.\n보리와 평소 다니는 \n동물병원은 어디인가요?",
+          "x": 24,
+          "y": 396,
+          "w": 175,
+          "h": 75,
+          "font": "mixed",
+          "size": 18,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "동물병원 이름을 입력해주세요",
+          "x": 24,
+          "y": 514,
+          "w": 170,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "DemiLight",
+            "variationSettings": {
+              "wght": 350
+            }
+          },
+          "size": 14,
+          "color": "#afafaf",
+          "align": "LEFT"
+        },
+        {
+          "text": "등록 완료",
+          "x": 170,
+          "y": 804,
+          "w": 62,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "12_m02_profile_06",
+      "id": "483:36728",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 여행할 때\n참고할 정보들을\n알려주세요",
+          "x": 24,
+          "y": 151,
+          "w": 162,
+          "h": 102,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "Q2.\n보리와 평소 다니는 \n동물병원은 어디인가요?",
+          "x": 24,
+          "y": 396,
+          "w": 175,
+          "h": 75,
+          "font": "mixed",
+          "size": 18,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "등록 완료",
+          "x": 170,
+          "y": 804,
+          "w": 62,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "멍멍닥터 진료소 (서울특별시 마포구 12-1)",
+          "x": 47,
+          "y": 577,
+          "w": 237,
+          "h": 20,
+          "font": "mixed",
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "멍멍냥냥 병원(서울특별시 노원구 1-23)",
+          "x": 47,
+          "y": 620,
+          "w": 222,
+          "h": 20,
+          "font": "mixed",
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "멍멍우리 병원(경기도 화천 10-4)",
+          "x": 47,
+          "y": 663,
+          "w": 184,
+          "h": 20,
+          "font": "mixed",
+          "size": 14,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "멍멍",
+          "x": 24,
+          "y": 510,
+          "w": 37,
+          "h": 28,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "13_m02_profile_07",
+      "id": "483:36821",
+      "name": "M02 반려견 프로필(1)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "반려동물 등록",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 여행할 때\n참고할 정보들을\n알려주세요",
+          "x": 24,
+          "y": 151,
+          "w": 162,
+          "h": 102,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 24,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "Q2.\n보리와 평소 다니는 \n동물병원은 어디인가요?",
+          "x": 24,
+          "y": 396,
+          "w": 175,
+          "h": 75,
+          "font": "mixed",
+          "size": 18,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "멍멍닥터 진료소\n(서울특별시 마포구 12-1)",
+          "x": 24,
+          "y": 510,
+          "w": 317,
+          "h": 55,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 20,
+          "color": "#322d27",
+          "align": "LEFT"
+        },
+        {
+          "text": "등록 완료",
+          "x": 170,
+          "y": 804,
+          "w": 62,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "14_m03_plan_01",
+      "id": "483:37649",
+      "name": "M03 여행 계획(1)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "여행 계획",
+          "x": 113,
+          "y": 86,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "선택 완료",
+          "x": 170,
+          "y": 809.9,
+          "w": 62,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "함께하는 보호자",
+          "x": 24,
+          "y": 729,
+          "w": 92,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "2명",
+          "x": 345,
+          "y": 729,
+          "w": 21,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "함께하는 반려동물",
+          "x": 24,
+          "y": 757,
+          "w": 104,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리 (1마리)",
+          "x": 294,
+          "y": 757,
+          "w": 72,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "누구와 함께\n떠날까요?",
+          "x": 24,
+          "y": 140,
+          "w": 354,
+          "h": 78,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "등록한 반려견을 눌러 선택해 주세요.",
+          "x": 24,
+          "y": 228,
+          "w": 354,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 15,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "반려동물",
+          "x": 24,
+          "y": 281,
+          "w": 62,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 17,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "여러 마리 OK",
+          "x": 308,
+          "y": 284,
+          "w": 70,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리",
+          "x": 68,
+          "y": 421,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "3살 · 대형견",
+          "x": 50,
+          "y": 443,
+          "w": 62,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 12,
+          "color": "#afafaf",
+          "align": "CENTER"
+        },
+        {
+          "text": "루비",
+          "x": 188,
+          "y": 421,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "5살 · 반려묘",
+          "x": 170,
+          "y": 443,
+          "w": 62,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 12,
+          "color": "#afafaf",
+          "align": "CENTER"
+        },
+        {
+          "text": "추가",
+          "x": 308,
+          "y": 421,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#888888",
+          "align": "CENTER"
+        },
+        {
+          "text": "보호자",
+          "x": 24,
+          "y": 513,
+          "w": 47,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 17,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "나",
+          "x": 70,
+          "y": 639,
+          "w": 13,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "동행 보호자",
+          "x": 167,
+          "y": 639,
+          "w": 67,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "추가",
+          "x": 310,
+          "y": 621,
+          "w": 28,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#888888",
+          "align": "CENTER"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "15_m03_plan_02",
+      "id": "483:37760",
+      "name": "M03 여행 계획(2)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "여행 계획",
+          "x": 113,
+          "y": 85,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 함께하는 여행",
+          "x": 87,
+          "y": 141,
+          "w": 146,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 17,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "3살 · 대형견",
+          "x": 87,
+          "y": 165,
+          "w": 67,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "변경",
+          "x": 347,
+          "y": 152,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "어떤 여행을 하고 싶나요?",
+          "x": 31,
+          "y": 363,
+          "w": 173,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 17,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "자연 속 휴식",
+          "x": 47,
+          "y": 408,
+          "w": 70,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "LEFT"
+        },
+        {
+          "text": "산책",
+          "x": 157,
+          "y": 408,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "액티비티",
+          "x": 223,
+          "y": 408,
+          "w": 51,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "숙소",
+          "x": 31,
+          "y": 471,
+          "w": 30,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "활동",
+          "x": 87,
+          "y": 471,
+          "w": 30,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "코스",
+          "x": 143,
+          "y": 471,
+          "w": 30,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리가 갈 수 있는 숙소",
+          "x": 31,
+          "y": 526,
+          "w": 153,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 17,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "추천 기준",
+          "x": 307,
+          "y": 529,
+          "w": 50,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리 맞춤 추천",
+          "x": 73,
+          "y": 701.5,
+          "w": 70,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 12,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "숲속 스테이",
+          "x": 31,
+          "y": 746,
+          "w": 86,
+          "h": 25,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 18,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "경기 양평  ·  대형견 동반  ·  울타리 운동장",
+          "x": 49,
+          "y": 775,
+          "w": 219,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "숲속 스테이",
+          "x": 31,
+          "y": 1008,
+          "w": 86,
+          "h": 25,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 18,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "경기 양평  ·  대형견 동반  ·  울타리 운동장",
+          "x": 49,
+          "y": 1037,
+          "w": 219,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "양평으로,\n11.18 – 11.19 1박 2일\n보호자 2명과 떠나요",
+          "x": 24,
+          "y": 206,
+          "w": 354,
+          "h": 96,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 22,
+          "color": null,
+          "align": "LEFT"
+        },
+        {
+          "text": "밑줄 친 부분을 누르면 바꿀 수 있어요",
+          "x": 24,
+          "y": 312,
+          "w": 177,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "16_m03_place_detail",
+      "id": "483:37837",
+      "name": "M03 장소 상세(3)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "보리와 함께 방문할 곳",
+          "x": 52,
+          "y": 302,
+          "w": 114,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 13,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "숲속 스테이",
+          "x": 24,
+          "y": 326,
+          "w": 123,
+          "h": 35,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 26,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "경기 양평",
+          "x": 43,
+          "y": 365,
+          "w": 54,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리와 가기 전 확인해요",
+          "x": 24,
+          "y": 409,
+          "w": 155,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "대형견 동반 가능",
+          "x": 68,
+          "y": 450.5,
+          "w": 101,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 15,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "울타리 운동장 · 반려견 샤워실",
+          "x": 68,
+          "y": 492.5,
+          "w": 183,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 15,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "입장 전 접종 증명 확인 필요",
+          "x": 68,
+          "y": 534.5,
+          "w": 165,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 15,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "반려견과 다녀온 후기",
+          "x": 24,
+          "y": 600,
+          "w": 137,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "더 보기",
+          "x": 323,
+          "y": 602,
+          "w": 39,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 13,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "“",
+          "x": 24,
+          "y": 638,
+          "w": 26,
+          "h": 40,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Black",
+            "variationSettings": {
+              "wght": 900
+            }
+          },
+          "size": 40,
+          "color": "#ffe0c7",
+          "align": "LEFT"
+        },
+        {
+          "text": "운동장이 넓어 함께 뛰어놀기 좋았어요.",
+          "x": 60,
+          "y": 638,
+          "w": 318,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 15,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "대형견 동반 후기",
+          "x": 132,
+          "y": 665,
+          "w": 81,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "숲속 스테이",
+          "x": 31,
+          "y": 1008,
+          "w": 86,
+          "h": 25,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 18,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "경기 양평  ·  대형견 동반  ·  울타리 운동장",
+          "x": 49,
+          "y": 1037,
+          "w": 219,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "이 여행지 추가하기",
+          "x": 140,
+          "y": 809.9,
+          "w": 123,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "객실 예약은 별도로 진행해요",
+          "x": 46,
+          "y": 759,
+          "w": 149,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "예약 안내",
+          "x": 312,
+          "y": 759,
+          "w": 50,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 13,
+          "color": "#fb7913",
+          "align": "LEFT"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "17_m03_itinerary",
+      "id": "483:37946",
+      "name": "M03 여행 일정 확인(4)",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "숲속 스테이",
+          "x": 31,
+          "y": 1008,
+          "w": 86,
+          "h": 25,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 18,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "경기 양평  ·  대형견 동반  ·  울타리 운동장",
+          "x": 49,
+          "y": 1037,
+          "w": 219,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "이 여행지 저장하기",
+          "x": 140,
+          "y": 809.9,
+          "w": 123,
+          "h": 24,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "차량에서도 여행 계획을 볼 수 있어요.",
+          "x": 105,
+          "y": 759,
+          "w": 193,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "여행 일정",
+          "x": 113,
+          "y": 85,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 함께하는\n양평 여행",
+          "x": 24,
+          "y": 140,
+          "w": 354,
+          "h": 78,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "11.18 – 11.19 · 1박 2일",
+          "x": 46,
+          "y": 228,
+          "w": 137,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리 · 3살 · 대형견",
+          "x": 77,
+          "y": 273,
+          "w": 120,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 15,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "보호자 2명과 함께",
+          "x": 77,
+          "y": 296,
+          "w": 95,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "변경",
+          "x": 352,
+          "y": 283.5,
+          "w": 26,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "1일차",
+          "x": 24,
+          "y": 352,
+          "w": 39,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "2일차",
+          "x": 89,
+          "y": 352,
+          "w": 38,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "출발지",
+          "x": 54,
+          "y": 407,
+          "w": 44,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "출발 위치를 설정해 주세요",
+          "x": 54,
+          "y": 431,
+          "w": 137,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "숙소",
+          "x": 132,
+          "y": 475,
+          "w": 22,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 12,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "숲속 스테이",
+          "x": 132,
+          "y": 494,
+          "w": 76,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "일정에 추가됨",
+          "x": 150,
+          "y": 518,
+          "w": 68,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 12,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "·  예약 전",
+          "x": 222,
+          "y": 518,
+          "w": 47,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "경유지 · 활동 추가",
+          "x": 74,
+          "y": 561,
+          "w": 113,
+          "h": 21,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 15,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "여행 테마",
+          "x": 46,
+          "y": 604,
+          "w": 50,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "자연 속 휴식",
+          "x": 102,
+          "y": 604,
+          "w": 65,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 13,
+          "color": "#f2711c",
+          "align": "LEFT"
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "kind": "mobile",
+      "key": "18_m04_review",
+      "id": "483:38060",
+      "name": "M04 후기·장소 저장",
+      "width": 402,
+      "height": 886,
+      "texts": [
+        {
+          "text": "숲속 스테이",
+          "x": 31,
+          "y": 1008,
+          "w": 86,
+          "h": 25,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 18,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "경기 양평  ·  대형견 동반  ·  울타리 운동장",
+          "x": 49,
+          "y": 1037,
+          "w": 219,
+          "h": 18,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 13,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "후기 남기기",
+          "x": 166,
+          "y": 800.9,
+          "w": 71,
+          "h": 24,
+          "font": {
+            "family": "Pretendard",
+            "style": "SemiBold"
+          },
+          "size": 16,
+          "color": "#ffffff",
+          "align": "CENTER"
+        },
+        {
+          "text": "후기 남기기",
+          "x": 113,
+          "y": 85,
+          "w": 176.3,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 16,
+          "color": "#322d27",
+          "align": "CENTER"
+        },
+        {
+          "text": "보리와 함께한 이곳,\n어땠나요?",
+          "x": 24,
+          "y": 140,
+          "w": 354,
+          "h": 78,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 28,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "함께한 경험을 다른 보호자에게도 들려주세요!",
+          "x": 24,
+          "y": 228,
+          "w": 256,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "숙소",
+          "x": 180,
+          "y": 284,
+          "w": 22,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 12,
+          "color": "#f2711c",
+          "align": "LEFT"
+        },
+        {
+          "text": "숲속 스테이",
+          "x": 180,
+          "y": 303,
+          "w": 76,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "양평",
+          "x": 180,
+          "y": 327,
+          "w": 22,
+          "h": 17,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        },
+        {
+          "text": "가는 길은 어땠나요?",
+          "x": 24,
+          "y": 472,
+          "w": 131,
+          "h": 22,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 16,
+          "color": "#2a211b",
+          "align": "LEFT"
+        },
+        {
+          "text": "편안하게 이동했어요",
+          "x": 40,
+          "y": 519,
+          "w": 117,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "size": 14,
+          "color": "#ffffff",
+          "align": "LEFT"
+        },
+        {
+          "text": "보리가 멀미했어요",
+          "x": 197,
+          "y": 519,
+          "w": 104,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "멀어요",
+          "x": 341,
+          "y": 519,
+          "w": 39,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "정체가 심했어요",
+          "x": 40,
+          "y": 573,
+          "w": 92,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "도로가 울퉁불퉁했어요",
+          "x": 172,
+          "y": 573,
+          "w": 130,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#7a6f68",
+          "align": "LEFT"
+        },
+        {
+          "text": "한줄평을 남겨주세요.",
+          "x": 35.5,
+          "y": 636,
+          "w": 121,
+          "h": 20,
+          "font": {
+            "family": "Noto Sans KR",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "size": 14,
+          "color": "#b3a9a2",
+          "align": "LEFT"
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

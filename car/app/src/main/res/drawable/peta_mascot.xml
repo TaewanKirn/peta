@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 페타 마스코트 (흰 강아지 얼굴 + 갈색 귀 + 주황 목줄) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="100dp"
+    android:viewportWidth="120"
+    android:viewportHeight="100">
+    <!-- 귀 -->
+    <path
+        android:fillColor="#7A4A2E"
+        android:pathData="M30,28 Q10,36 13,68 Q22,78 31,64 Q36,44 30,28 Z" />
+    <path
+        android:fillColor="#7A4A2E"
+        android:pathData="M90,28 Q110,36 107,68 Q98,78 89,64 Q84,44 90,28 Z" />
+    <!-- 얼굴 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#E6E1DC"
+        android:strokeWidth="1.5"
+        android:pathData="M24,54 A36,34 0 1,0 96,54 A36,34 0 1,0 24,54 Z" />
+    <!-- 눈 -->
+    <path
+        android:fillColor="#2B2B2B"
+        android:pathData="M44,52 A3.6,3.6 0 1,0 51.2,52 A3.6,3.6 0 1,0 44,52 Z" />
+    <path
+        android:fillColor="#2B2B2B"
+        android:pathData="M68.8,52 A3.6,3.6 0 1,0 76,52 A3.6,3.6 0 1,0 68.8,52 Z" />
+    <!-- 코 -->
+    <path
+        android:fillColor="#2B2B2B"
+        android:pathData="M55,61 Q60,57 65,61 Q60,67 55,61 Z" />
+    <!-- 볼 -->
+    <path
+        android:fillColor="#FFD5C2"
+        android:pathData="M36,64 A4,3 0 1,0 44,64 A4,3 0 1,0 36,64 Z" />
+    <path
+        android:fillColor="#FFD5C2"
+        android:pathData="M76,64 A4,3 0 1,0 84,64 A4,3 0 1,0 76,64 Z" />
+    <!-- 목줄 -->
+    <path
+        android:fillColor="#FA7A16"
+        android:pathData="M38,84 L82,84 L82,91 L38,91 Z" />
+    <path
+        android:fillColor="#FFC83D"
+        android:pathData="M56.5,93 A3.5,3.5 0 1,0 63.5,93 A3.5,3.5 0 1,0 56.5,93 Z" />
+</vector>

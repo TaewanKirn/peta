@@ -1,0 +1,660 @@
+{
+  "m01_account": [
+    {
+      "name": "imgBattery",
+      "path": "assets/m01_account/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m01_account/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m01_account/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486253",
+      "path": "assets/m01_account/imgGroup1707486253.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m01_account/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m01_account/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486267",
+      "path": "assets/m01_account/imgGroup1707486267.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgVector17051",
+      "path": "assets/m01_account/imgVector17051.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486265",
+      "path": "assets/m01_account/imgGroup1707486265.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgVector",
+      "path": "assets/m01_account/imgVector.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgVector1",
+      "path": "assets/m01_account/imgVector1.svg",
+      "format": "svg"
+    }
+  ],
+  "m01_style": [
+    {
+      "name": "imgImage61",
+      "path": "assets/m01_style/imgImage61.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage44",
+      "path": "assets/m01_style/imgImage44.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage57",
+      "path": "assets/m01_style/imgImage57.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage60",
+      "path": "assets/m01_style/imgImage60.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage59",
+      "path": "assets/m01_style/imgImage59.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage58",
+      "path": "assets/m01_style/imgImage58.png",
+      "format": "png"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m01_style/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m01_style/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m01_style/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486253",
+      "path": "assets/m01_style/imgGroup1707486253.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m01_style/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m01_style/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgVector3",
+      "path": "assets/m01_style/imgVector3.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgLayer1",
+      "path": "assets/m01_style/imgLayer1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgVector8",
+      "path": "assets/m01_style/imgVector8.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgEllipse159",
+      "path": "assets/m01_style/imgEllipse159.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgEllipse160",
+      "path": "assets/m01_style/imgEllipse160.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgEllipse162",
+      "path": "assets/m01_style/imgEllipse162.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgEllipse163",
+      "path": "assets/m01_style/imgEllipse163.svg",
+      "format": "svg"
+    }
+  ],
+  "m02_pet1": [
+    {
+      "name": "imgImage3637",
+      "path": "assets/m02_pet1/imgImage3637.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage3636",
+      "path": "assets/m02_pet1/imgImage3636.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m02_pet1/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m02_pet1/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m02_pet1/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486253",
+      "path": "assets/m02_pet1/imgGroup1707486253.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m02_pet1/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m02_pet1/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcCheck",
+      "path": "assets/m02_pet1/imgIcCheck.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcCheck1",
+      "path": "assets/m02_pet1/imgIcCheck1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcCheck2",
+      "path": "assets/m02_pet1/imgIcCheck2.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose1",
+      "path": "assets/m02_pet1/imgIcClose1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486262",
+      "path": "assets/m02_pet1/imgGroup1707486262.svg",
+      "format": "svg"
+    }
+  ],
+  "m02_pet2": [
+    {
+      "name": "imgImage3637",
+      "path": "assets/m02_pet2/imgImage3637.png",
+      "format": "png"
+    },
+    {
+      "name": "imgFrame1000012166",
+      "path": "assets/m02_pet2/imgFrame1000012166.png",
+      "format": "png"
+    },
+    {
+      "name": "imgFrame1000012167",
+      "path": "assets/m02_pet2/imgFrame1000012167.png",
+      "format": "png"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m02_pet2/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m02_pet2/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m02_pet2/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgGroup1707486253",
+      "path": "assets/m02_pet2/imgGroup1707486253.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m02_pet2/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m02_pet2/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgImage3636",
+      "path": "assets/m02_pet2/imgImage3636.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcSearch",
+      "path": "assets/m02_pet2/imgIcSearch.svg",
+      "format": "svg"
+    }
+  ],
+  "m03_plan1": [
+    {
+      "name": "imgAvatar",
+      "path": "assets/m03_plan1/imgAvatar.png",
+      "format": "png"
+    },
+    {
+      "name": "img20261103422531",
+      "path": "assets/m03_plan1/img20261103422531.png",
+      "format": "png"
+    },
+    {
+      "name": "img11",
+      "path": "assets/m03_plan1/img11.png",
+      "format": "png"
+    },
+    {
+      "name": "img21",
+      "path": "assets/m03_plan1/img21.png",
+      "format": "png"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m03_plan1/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m03_plan1/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m03_plan1/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m03_plan1/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m03_plan1/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconCheck",
+      "path": "assets/m03_plan1/imgIconCheck.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPlus",
+      "path": "assets/m03_plan1/imgIconPlus.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPlus1",
+      "path": "assets/m03_plan1/imgIconPlus1.svg",
+      "format": "svg"
+    }
+  ],
+  "m03_plan2": [
+    {
+      "name": "imgPhoto",
+      "path": "assets/m03_plan2/imgPhoto.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage3637",
+      "path": "assets/m03_plan2/imgImage3637.png",
+      "format": "png"
+    },
+    {
+      "name": "imgPhoto1",
+      "path": "assets/m03_plan2/imgPhoto1.png",
+      "format": "png"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m03_plan2/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m03_plan2/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m03_plan2/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m03_plan2/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m03_plan2/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgImage3636",
+      "path": "assets/m03_plan2/imgImage3636.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconChevronRight",
+      "path": "assets/m03_plan2/imgIconChevronRight.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcPaw",
+      "path": "assets/m03_plan2/imgIcPaw.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgFace",
+      "path": "assets/m03_plan2/imgFace.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPin",
+      "path": "assets/m03_plan2/imgIconPin.svg",
+      "format": "svg"
+    }
+  ],
+  "m03_place": [
+    {
+      "name": "imgHeroPhoto",
+      "path": "assets/m03_place/imgHeroPhoto.png",
+      "format": "png"
+    },
+    {
+      "name": "imgIconChevronLeft",
+      "path": "assets/m03_place/imgIconChevronLeft.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgFace",
+      "path": "assets/m03_place/imgFace.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPin",
+      "path": "assets/m03_place/imgIconPin.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPaw",
+      "path": "assets/m03_place/imgIconPaw.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconFence",
+      "path": "assets/m03_place/imgIconFence.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconShield",
+      "path": "assets/m03_place/imgIconShield.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconChevronRight",
+      "path": "assets/m03_place/imgIconChevronRight.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconStar",
+      "path": "assets/m03_place/imgIconStar.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m03_place/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m03_place/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m03_place/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m03_place/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m03_place/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPin1",
+      "path": "assets/m03_place/imgIconPin1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack1",
+      "path": "assets/m03_place/imgIcBack1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose1",
+      "path": "assets/m03_place/imgIcClose1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconInfo",
+      "path": "assets/m03_place/imgIconInfo.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconChevronRight1",
+      "path": "assets/m03_place/imgIconChevronRight1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcPaw",
+      "path": "assets/m03_place/imgIcPaw.svg",
+      "format": "svg"
+    }
+  ],
+  "m03_confirm": [
+    {
+      "name": "imgImage3637",
+      "path": "assets/m03_confirm/imgImage3637.png",
+      "format": "png"
+    },
+    {
+      "name": "imgPhoto",
+      "path": "assets/m03_confirm/imgPhoto.png",
+      "format": "png"
+    },
+    {
+      "name": "imgDot2",
+      "path": "assets/m03_confirm/imgDot2.png",
+      "format": "png"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m03_confirm/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m03_confirm/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m03_confirm/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPin",
+      "path": "assets/m03_confirm/imgIconPin.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m03_confirm/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m03_confirm/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconCalendar",
+      "path": "assets/m03_confirm/imgIconCalendar.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgImage3636",
+      "path": "assets/m03_confirm/imgImage3636.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgDot",
+      "path": "assets/m03_confirm/imgDot.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconChevronRight",
+      "path": "assets/m03_confirm/imgIconChevronRight.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgDot1",
+      "path": "assets/m03_confirm/imgDot1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconCheck",
+      "path": "assets/m03_confirm/imgIconCheck.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPlus",
+      "path": "assets/m03_confirm/imgIconPlus.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconLeaf",
+      "path": "assets/m03_confirm/imgIconLeaf.svg",
+      "format": "svg"
+    }
+  ],
+  "m04_review": [
+    {
+      "name": "imgPhoto",
+      "path": "assets/m04_review/imgPhoto.png",
+      "format": "png"
+    },
+    {
+      "name": "imgImage3637",
+      "path": "assets/m04_review/imgImage3637.png",
+      "format": "png"
+    },
+    {
+      "name": "imgFrame1000012166",
+      "path": "assets/m04_review/imgFrame1000012166.png",
+      "format": "png"
+    },
+    {
+      "name": "imgBattery",
+      "path": "assets/m04_review/imgBattery.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgWiFi",
+      "path": "assets/m04_review/imgWiFi.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgTime",
+      "path": "assets/m04_review/imgTime.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIconPin",
+      "path": "assets/m04_review/imgIconPin.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcBack",
+      "path": "assets/m04_review/imgIcBack.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgIcClose",
+      "path": "assets/m04_review/imgIcClose.svg",
+      "format": "svg"
+    },
+    {
+      "name": "imgImage3636",
+      "path": "assets/m04_review/imgImage3636.svg",
+      "format": "svg"
+    },
+    {
+      "name": "img1",
+      "path": "assets/m04_review/img1.svg",
+      "format": "svg"
+    },
+    {
+      "name": "img5",
+      "path": "assets/m04_review/img5.svg",
+      "format": "svg"
+    }
+  ]
+}

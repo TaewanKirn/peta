@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <title>PET:A 플로우 점검</title>
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">PET:A <span>플로우 점검</span></div>
+      <div class="status" id="car-status">
+        <span class="dot" id="car-dot"></span>
+        <span id="car-line">차량 앱 연결 확인 중</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="pane" aria-labelledby="flow-title">
+        <div class="bar">
+          <div>
+            <h1 id="flow-title">전체 화면 플로우 (Figma · 화면수정(태완))</h1>
+            <p class="hint">
+              차량 상자(C00–C14)를 누르면 에뮬레이터의 차량 앱이, 모바일 상자(M01–M04)를 누르면 오른쪽 폰 미리보기가 그 화면으로 바뀝니다.
+              숫자가 붙은 상자는 상태나 실제 흐름 이벤트를 골라 엽니다. 색 칩(→ C03 준비물 등)을 누르면 그 상자로 갑니다. 지금 화면은 굵은 테두리로 표시합니다.
+            </p>
+          </div>
+          <div class="buttons" id="zoom"></div>
+        </div>
+        <div id="flow"></div>
+
+        <div class="controls">
+          <div class="card">
+            <h2>차량 조작 · 이벤트</h2>
+            <p class="hint">기어는 Virtual Console 대신 앱 안에서만 덮어씁니다. Virtual Console로 기어를 바꾸면 그 값으로 돌아갑니다. 바로 가기는 음성 · 내비를 부르지 않는 정지 화면이고, 여기 버튼으로 실제 흐름을 이어 갑니다.</p>
+            <div id="car-events" class="event-groups"></div>
+          </div>
+          <div class="card">
+            <h2>모바일 데이터</h2>
+            <p class="hint">화면에 필요한 값이 비어 있으면 샘플 반려견(리치 · 말티푸)과 샘플 여행을 채운 뒤 엽니다. 이미 입력한 값은 덮지 않습니다.</p>
+            <div id="mobile-data" class="buttons"></div>
+            <p class="hint" id="mobile-msg" role="status"></p>
+            <details class="detail">
+              <summary>차량 앱 상태 원본</summary>
+              <pre id="car-raw">-</pre>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <aside class="phone" aria-label="모바일 앱 미리보기">
+        <div class="phone-bar">
+          <span id="phone-route">/</span>
+          <a id="phone-open" href="/" target="_blank" rel="noopener">새 탭</a>
+        </div>
+        <iframe id="phone" title="모바일 앱 미리보기" src="/"></iframe>
+      </aside>
+    </main>
+    <div id="toast" role="status"></div>
+
+    <script type="module" src="./admin.ts"></script>
+  </body>
+</html>
