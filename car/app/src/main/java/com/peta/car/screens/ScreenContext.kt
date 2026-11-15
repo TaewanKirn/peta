@@ -19,6 +19,8 @@ import java.util.Locale
  */
 enum class Screen(val title: String) {
     C00_SPLASH(""),
+    /** 개인정보 · 위치정보 동의 (첫 실행 · 주차 중, 설정에서 다시 보기) */
+    C00P_CONSENT(""),
     C01_HOME("홈"),
     C01R_HOME_TRIP("홈"),
     C02_CONFIRM("출발 준비"),
@@ -72,6 +74,10 @@ class UiLocal {
     var widenKey: String? = null
     var hospitalIndex = 0
     var splashUntil = 0L
+    /** C14에서 동의 화면을 다시 연 상태 */
+    var reviewConsent = false
+    /** C00-P 1/3에서 연 약관 QR 시트 제목. null이면 닫힘 */
+    var consentSheet: String? = null
 }
 
 interface ScreenHost {

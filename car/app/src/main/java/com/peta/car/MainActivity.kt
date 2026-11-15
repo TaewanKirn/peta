@@ -19,6 +19,7 @@ import com.peta.car.screens.Screen
 import com.peta.car.screens.ScreenHost
 import com.peta.car.screens.UiLocal
 import com.peta.car.screens.c00Splash
+import com.peta.car.screens.c00pConsent
 import com.peta.car.screens.c01Home
 import com.peta.car.screens.c01rHomeTrip
 import com.peta.car.screens.c02Confirm
@@ -72,6 +73,7 @@ class MainActivity : AppCompatActivity(), ScreenHost {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         com.peta.car.ui.ThemeMode.load(this)
+        com.peta.car.privacy.Consent.load(this)
         root = FrameLayout(this).apply { setBackgroundColor(0xFFFFFCF9.toInt()) }
         setContentView(root)
         root.addOnLayoutChangeListener { _, l, t, r, b, ol, ot, or_, ob ->
@@ -158,6 +160,10 @@ class MainActivity : AppCompatActivity(), ScreenHost {
         }
         if (plan == null) return Screen.C00_SPLASH
         if (System.currentTimeMillis() < ui.splashUntil) return Screen.C00_SPLASH
+        // 위치를 처음 쓰기 전에 동의를 받는다. 주행 중이면 미루고(위치는 보내지 않음) 주차하면 연다.
+        if (!driving && (ui.reviewConsent || com.peta.car.privacy.Consent.state == com.peta.car.privacy.Consent.State.UNKNOWN)) {
+            return Screen.C00P_CONSENT
+        }
         when (ui.tab) {
             NavTab.SEARCH -> return Screen.C12_SEARCH
             NavTab.SETTINGS -> return Screen.C14_SETTINGS
@@ -211,7 +217,7 @@ class MainActivity : AppCompatActivity(), ScreenHost {
         val dark = com.peta.car.ui.ThemeMode.resolve(this)
         root.setBackgroundColor(if (dark) 0xFF1A1512.toInt() else 0xFFFFFCF9.toInt())
         val signature = listOf(
-            dark, com.peta.car.ui.ThemeMode.setting,
+            dark, com.peta.car.ui.ThemeMode.setting, com.peta.car.privacy.Consent.state,
             screen, wide, driving, s.plan, s.planFromPhone, s.syncOffline, s.restPrompt, s.stopQuestion,
             s.pendingStop, s.plannedStop, s.plannedStopDecided, s.waypointVisited, s.routeFailed, s.stage, s.phase,
             s.currentStop, s.resting, s.pendingReview, s.hospitals, s.nearbyRestPlaces, s.placesRev, s.voiceEnabled,
@@ -236,6 +242,7 @@ class MainActivity : AppCompatActivity(), ScreenHost {
         val plan = s.plan
         when (screen) {
             Screen.C00_SPLASH -> scr.c00Splash()
+            Screen.C00P_CONSENT -> scr.c00pConsent()
             Screen.C14_SETTINGS -> scr.c14Settings(plan)
             Screen.C12_SEARCH, Screen.C13E_SEARCH_EMPTY -> scr.c12Search()
             Screen.C10_REVIEW -> scr.c10Review()
@@ -258,6 +265,8 @@ class MainActivity : AppCompatActivity(), ScreenHost {
             }
         }
         if (screen == Screen.C00_SPLASH) return
+        // 동의 화면은 헤더 · 탭 없이 패널 전체를 쓴다 (QR 시트만 덮는다)
+        if (screen == Screen.C00P_CONSENT) { overlayDraw?.invoke(); return }
 
         // 주행 중에는 본문 터치를 막는다 (응급 화면과 C05 변경/취소 버튼만 예외)
         if (driving && !screen.usableWhileDriving) {

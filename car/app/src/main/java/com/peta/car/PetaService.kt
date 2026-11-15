@@ -119,6 +119,7 @@ class PetaService : LifecycleService(), PetaActions {
 
     override fun onCreate() {
         super.onCreate()
+        com.peta.car.privacy.Consent.load(this)
         notifier = PetaNotifier(this)
         val type = if (Build.VERSION.SDK_INT >= 34) ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE else 0
         ServiceCompat.startForeground(this, PetaNotifier.ID_MONITOR, notifier.monitorNotification(), type)
@@ -697,6 +698,8 @@ class PetaService : LifecycleService(), PetaActions {
 
     /** 관광공사(쉼터·여행지)와 카카오(동물병원)에서 주변 장소를 받아 온다. 키가 없거나 실패하면 샘플로 동작한다. */
     private fun syncPlaces() {
+        // 위치정보 동의 전·거부면 좌표를 밖으로 보내지 않는다 (샘플 장소·병원으로 동작). 동의하면 refreshNearby로 다시 부른다.
+        if (!com.peta.car.privacy.Consent.locationAllowed) return
         if (placesFetching || !(tour.isConfigured || kakao.isConfigured)) return
         val at = ui.location
         val last = placesAt
@@ -834,7 +837,8 @@ class PetaService : LifecycleService(), PetaActions {
 
     override fun widenNearby(radiusKm: Int) {
         val from = ui.location
-        if (!tour.isConfigured) { places.updateWideNearby(radiusKm, emptyList()); return }
+        // 반경 조회도 좌표를 보내므로 위치정보 동의가 있을 때만
+        if (!tour.isConfigured || !com.peta.car.privacy.Consent.locationAllowed) { places.updateWideNearby(radiusKm, emptyList()); return }
         places.setWideLoading(radiusKm)
         PetaStore.update { it.copy(placesRev = it.placesRev + 1) }
         lifecycleScope.launch {
